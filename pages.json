@@ -1,0 +1,93 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "小说阅读",
+				"app-plus": {
+					"titleNView": {
+						"titleText": "小说阅读",
+						"buttons": [{
+							"text": "\ue633",
+							"fontSrc": "/static/iconfont.ttf",
+							"fontSize": "26px",
+							"float": "left"
+						}, {
+							"text": "\ue611",
+							"fontSrc": "/static/iconfont.ttf",
+							"fontSize": "22px",
+							"redDot" : true
+						}]
+					}
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"app-plus":{
+					"titleNView":false
+					// "titleNView":{
+					// 	"titleText": "小说阅读",
+					// 	"searchInput":{
+					// 		"autoFocus":true,
+					// 		"borderRadius":"6px",
+					// 		"placeholder":"请输入搜索内容"
+					// 	},
+					// 	"buttons":[{
+					// 		"text":" 搜索 ",
+					// 		"fontSize":"14px"
+					// 	}]
+					// }
+				}
+			}
+			
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" : {
+				"app-plus":{
+					"titleNView":{
+						"titleText": "小说阅读"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/search/result/result",
+            "style" : {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/Introduce/Introduce",
+            "style" : {
+				"app-plus":{
+					"titleNView":{
+						"titleText": "书籍详情"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/Introduce/list/list",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/Introduce/content/content",
+            "style" : {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
